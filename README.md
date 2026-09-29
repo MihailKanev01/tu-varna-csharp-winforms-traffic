@@ -1,3 +1,4 @@
+
 # Traffic Management
 
 A C# Windows Forms application for exploring public-transport lines, stops and related user flows.
@@ -6,17 +7,15 @@ A C# Windows Forms application for exploring public-transport lines, stops and r
 
 The application is structured as a multi-form desktop program. The current project includes screens and logic for:
 
-- login and registration
-- menu navigation
-- transport line selection
-- stop browsing
-- map navigation
-- subscriptions
-- ticket-related flow
+- Login and registration.
+- Menu navigation.
+- Transport-line selection.
+- Stop browsing.
+- Map navigation.
+- Subscriptions.
+- Ticket-related flow.
 
-The project contains route-specific stop data and a map resource used by the desktop UI.
-
-## Technical focus
+## Technical Focus
 
 - C#
 - Windows Forms
@@ -27,56 +26,36 @@ The project contains route-specific stop data and a map resource used by the des
 - Map/image navigation
 - UI state management
 
-## Example flow
+## Example Flow
 
-```text
-Login / Register
-      ↓
-Menu
-      ↓
-Select line
-      ↓
-Browse stops
-      ↓
-Select a stop
-      ↓
-Navigate the map
-```
+    Login / Register
+          ↓
+    Menu
+          ↓
+    Select line
+          ↓
+    Browse stops
+          ↓
+    Select a stop
+          ↓
+    Navigate the map
 
 The current implementation includes public-transport examples for lines 20 and 148.
 
-## Project structure
+## Run Locally
 
-```text
-Traffic.sln
-Traffic/
-├── Login.cs
-├── Register.cs
-├── Menu.cs
-├── Lines.cs
-├── Stops.cs
-├── Subscription.cs
-├── Ticket.cs
-└── Resources/
-    └── Map.png
-```
-
-## Run locally
-
-Requirements:
-
-- Visual Studio with Windows Forms/.NET support on Windows
+**Requirement:** Visual Studio with Windows Forms/.NET support on Windows.
 
 Steps:
 
 1. Clone the repository.
-2. Open `Traffic.sln` in Visual Studio.
+2. Open Traffic.sln in Visual Studio.
 3. Build the solution.
 4. Run the application.
 
-## Project status
+## Project Status
 
-This is a university/personal desktop application demonstrating Windows Forms, event-driven programming and multi-screen application design.
+A university/personal desktop application demonstrating Windows Forms, event-driven programming and multi-screen application design.
 
 ## License
 
